@@ -10,7 +10,7 @@ defineProps({
 export default {
   data() {
     return {
-      privacyPageUrl: 'https://furdice.github.io/furdice_web/?page=privacy',
+      webUrl: 'https://furdice.github.io/',
       contactEmail: 'furdicegames@gmail.com'
     }
   }
@@ -28,7 +28,7 @@ export default {
       </p>
       <p>
         The privacy policy may change from time to time for any reason, and any updates can be obtained by visiting
-        {{ privacyPageUrl }}.
+        {{ webUrl + '?page=privacy' }}.
       </p>
       <p>
         The "There Were Eggs" app does not collect, solicit or transmit any personally identifiable information, and
@@ -45,7 +45,7 @@ export default {
       <h1>개인정보처리방침</h1>
       <hr>
       <p>
-        [ FurDice ]('https://furdice.github.io/furdice_web/'이하 'FurDice')는 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와
+        [ FurDice ]('{{ webUrl }}'이하 'FurDice')는 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와
         관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.
       </p>
       <p>
@@ -83,7 +83,7 @@ export default {
       <h1>개인정보처리방침</h1>
       <hr>
       <p>
-        [ FurDice ]('https://furdice.github.io/furdice_web/'이하 'FurDice')은(는) 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와
+        [ FurDice ]('{{ webUrl }}'이하 'FurDice')은(는) 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와
         관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.
       </p>
       <p>
@@ -93,7 +93,7 @@ export default {
       <p>
         제1조(개인정보의 처리 목적)
 
-        [ FurDice ]('https://furdice.github.io/furdice_web/'이하 'FurDice')은(는) 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의
+        [ FurDice ]('{{ webUrl }}'이하 'FurDice')은(는) 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의
         목적 이외의 용도로는 이용되지 않으며 이용 목적이 변경되는 경우에는 「개인정보 보호법」 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.
 
 
